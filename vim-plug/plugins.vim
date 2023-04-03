@@ -19,6 +19,14 @@ call plug#begin('~/config/nvim/autoload/plugged')
   Plug 'shinchu/lightline-gruvbox.vim'
   
   "nvim tree
-  Plug 'nvim-tree/nvim-tree.lua'
-  
+  "Plug 'nvim-tree/nvim-tree.lua'
+  Plug 'nvim-tree/nvim-web-devicons'
+
+  " code autocomplete
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+  " telescope
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
+
 call plug#end()

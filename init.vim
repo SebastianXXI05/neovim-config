@@ -1,9 +1,9 @@
+so ~/.config/nvim/coc.vim
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/vim-plug/plugins.vim
 so ~/.config/nvim/themes/gruvbox.vim " gruvbox theme
 "so ~/.config/nvim/themes/nord.vim " nord theme
-so ~/.config/nvim/lua-tree.lua
-
+  
 set rnu
 set number
 
